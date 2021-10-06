@@ -4,7 +4,7 @@ Check apache status
 
 `sudo systemctl status apche2`
 
-![status apache](./images/apache-status.png)
+![status apache](./images/apache-status.PNG)
 
 ### This is a list
 
