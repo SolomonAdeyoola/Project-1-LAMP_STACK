@@ -20,10 +20,10 @@ This is another list
 2. big two
 
 
-![status](./images/pic2.png)
+![status](./images/pic2.PNG)
 
 
 
 
 
-![apach](test.png)
+![apach](test.PNG)
