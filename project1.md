@@ -22,10 +22,13 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 
 ### Step 1: Installing Apache and updating the firewall
 
+' #update a list of packages in package manager
+  sudo apt update
+  #run apache2 package installation
+  sudo apt install apache2'
 
-
-
-
+![Apache installation](./images/Installing_Apache.PNG)
+*Screenshot for Apache installation*
 
 
 
