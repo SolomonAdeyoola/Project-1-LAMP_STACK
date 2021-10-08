@@ -54,7 +54,9 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 
 
 ` #Create the directory for projectlamp`
+
   `sudo mkdir /var/www/projectlamp `
 
 ` #assign ownership of the directory with your current system user:` 
+
 `  sudo chown -R $USER:$USER /var/www/projectlamp`
