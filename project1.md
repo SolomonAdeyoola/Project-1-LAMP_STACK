@@ -60,3 +60,31 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 ` #assign ownership of the directory with your current system user:` 
 
 `  sudo chown -R $USER:$USER /var/www/projectlamp`
+
+
+` #create and open a new configuration file in Apache’s sites-available directory using your preferred command-line editor.`
+
+` sudo vi /etc/apache2/sites-available/projectlamp.conf `
+
+`	<VirtualHost *:80>`
+`   	 ServerName projectlamp`
+`   	 ServerAlias www.projectlamp `
+`   	 ServerAdmin webmaster@localhost`
+`   	 DocumentRoot /var/www/projectlamp`
+`    	 ErrorLog ${APACHE_LOG_DIR}/error.log`
+`   	 CustomLog ${APACHE_LOG_DIR}/access.log combined`
+`	</VirtualHost> `
+
+` sudo ls /etc/apache2/sites-available`
+`#==>>>>>000-default.conf  default-ssl.conf  projectlamp.conf`
+` sudo a2ensite projectlamp`
+` sudo a2dissite 000-default`
+` sudo apache2ctl configtest`
+` sudo systemctl reload apache2`
+
+`sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html`
+
+`# http://52.14.112.248:80 --open in web browser`
+
+![virtualhost](./images/virtual_host_webpage.PNG)
+*Screenshot of Virtual host webpage*
