@@ -12,10 +12,13 @@
 Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl_p1_lamp. Created security group with relevant ports opened and also created and saved my private key to be used for SSH into the EC2 instance.
 
 ![EC2 Machine](./images/EC2_Instance.PNG)
-*EC2 Instance Linux Ubuntu Server 20.04 1 CPU 8G Storage*#
+*EC2 Instance Linux Ubuntu Server 20.04 1 CPU 8G Storage*
+
+![Security ports](./images/Security_ports.PNG)
+*Security: Opened ports*
 
 ![SSH session](./images/SSH_from_Client_to_Server.PNG)
-*EC2 Instance Linux Ubuntu Server 20.04 1 CPU 8G Storage*#
+*SSH connection from client to EC2 Instance*
 
 ### Step 1: Installing Apache and updating the firewall
 
@@ -24,7 +27,7 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 
 
 
-![status apache](./images/apache-status.PNG)
+
 
 ### This is a list
 
