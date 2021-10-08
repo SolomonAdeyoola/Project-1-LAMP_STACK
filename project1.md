@@ -128,7 +128,14 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 `# write `
 
 `<?php `
+
 `phpinfo();`
 
 ![php_enabled](./images/php_enabled.PNG)
 *Screenshot of php_enabled*
+
+`#In other not to divulge sensitive info. it’s best to remove the file created about the PHP environment -and the Ubuntu server. Hence use rm command to remove`
+
+`sudo rm /var/www/projectlamp/index.php`
+
+# Project 1 completed
