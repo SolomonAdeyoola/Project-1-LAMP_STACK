@@ -22,13 +22,13 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 
 ### Step 1: Installing Apache and updating the firewall
 
-' #update a list of packages in package manager
+` #update a list of packages in package manager`
 
-   sudo apt update
+   `sudo apt update`
 
-  #run apache2 package installation
+` #run apache2 package installation`
 
-   sudo apt install apache2 '
+  `sudo apt install apache2`
 
 ![Apache installation](./images/Installing_Apache.PNG)
 ![Apache Startup](./images/Starting_Apache.PNG)
@@ -39,9 +39,9 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 *Screenshot of Apache webpage*
 
 ### Step 2: Installing mysql
-' sudo apt install mysql-server
+` sudo apt install mysql-server`
 
-sudo mysql_secure_installation '
+` sudo mysql_secure_installation`
 ![MySQL](./images/mysql_instal_launch.PNG)
 *Screenshot of MySQL*
 
@@ -50,5 +50,11 @@ sudo mysql_secure_installation '
 ![PHP](./images/php_install.PNG)
 *Screenshot of PHP_Install*
 
+### Step 4: Creating a virtual host for your website using apache
 
 
+` #Create the directory for projectlamp`
+  `sudo mkdir /var/www/projectlamp `
+
+` #assign ownership of the directory with your current system user:` 
+`  sudo chown -R $USER:$USER /var/www/projectlamp`
