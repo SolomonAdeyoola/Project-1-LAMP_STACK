@@ -91,5 +91,5 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 
 `# http://52.14.112.248:80 --open in web browser`
 
-![virtualhost](./images/virtual_host webpage.PNG)
+![virtualhost](./images/virtual_host_webpage.PNG)
 *Screenshot of Virtual host webpage*
