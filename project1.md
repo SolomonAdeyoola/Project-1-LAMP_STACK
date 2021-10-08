@@ -64,7 +64,7 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 
 ` #create and open a new configuration file in Apache’s sites-available directory using your preferred command-line editor.`
 
-` sudo vi /etc/apache2/sites-available/projectlamp.conf `
+` sudo nano /etc/apache2/sites-available/projectlamp.conf `
 
 `	<VirtualHost *:80>`
 `   	 ServerName projectlamp`
@@ -105,6 +105,26 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 *Screenshot of Virtual host webpage*
 
 ### Step 5 — Enable PHP on the Website
+
+ `#Edit the /etc/apache2/mods-enabled/dir.conf file and change the order in which the index.php file is listed within the DirectoryIndex directive:`
+
+ `sudo nano /etc/apache2/mods-enabled/dir.conf`
+
+ <IfModule mod_dir.c>
+    #Change this:
+        #DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+        #To this:
+        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+
+`reload Apache so the changes take effect`
+
+`sudo systemctl reload apache2`
+
+`Create a new file named index.php inside your custom web root folder:`
+
+`nano /var/www/projectlamp/index.php`
+
 
 
 ![php_enabled](./images/php_enabled.PNG)
