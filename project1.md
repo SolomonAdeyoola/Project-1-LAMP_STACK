@@ -2,11 +2,11 @@
 
 ## Introduction: 
 ### Technology Stack- A technology stack is a set of frameworks and tools used to develop a software product.
-### LAMP stands for a technology stack tool suite with Linux running as the OS; Apache as the webserver; MySQL as database; PHP as the server-side scripting language 
+### LAMP stands for a technology stack tool suite with Linux running as the OS; Apache as the webserver; MySQL as the database; PHP as the server-side scripting language 
 
 ![LAMP Architecture](./images/HLD_LAMP.PNG)
 
-*LAMP Architecture, Source: K7. India*
+** *LAMP Architecture, Source: K7. India* **
 
 
 
