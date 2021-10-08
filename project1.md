@@ -117,15 +117,18 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
         DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
 </IfModule>
 
-`reload Apache so the changes take effect`
+`#reload Apache so the changes take effect`
 
 `sudo systemctl reload apache2`
 
-`Create a new file named index.php inside your custom web root folder:`
+`#Create a new file named index.php inside your custom web root folder:`
 
 `nano /var/www/projectlamp/index.php`
 
+`# write `
 
+`<?php `
+`phpinfo();`
 
 ![php_enabled](./images/php_enabled.PNG)
 *Screenshot of php_enabled*
