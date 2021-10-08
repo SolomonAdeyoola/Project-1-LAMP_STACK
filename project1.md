@@ -1,8 +1,10 @@
-## This is project 1, as a devops guru
+# Web Stack Implementation of LAMP (Linux, Apache, MySQL, PHP)
 
+## Introduction: 
+### Technology Stack- A technology stack is a set of frameworks and tools used to develop a software product.
+### LAMP stands for a technology stack tool suite with Linux running as the OS; Apache as the webserver; MySQL as database; PHP as the server-side scripting language 
 Check apache status
 
-`sudo systemctl status apche2`
 
 ![status apache](./images/apache-status.PNG)
 
