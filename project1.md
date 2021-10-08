@@ -79,13 +79,23 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 
 `#==>>>>>000-default.conf  default-ssl.conf  projectlamp.conf`
 
+`#a2ensite command to enable the new virtual host`
+
 ` sudo a2ensite projectlamp`
+
+`#To disable Apache’s default website use a2dissite command`
 
 ` sudo a2dissite 000-default`
 
+`#To make sure your configuration file doesn’t contain syntax errors`
+
 ` sudo apache2ctl configtest`
 
+`#Finally, reload Apache so these changes take effect`
+
 ` sudo systemctl reload apache2`
+
+`#new website is now active, but the web root /var/www/projectlamp is still empty. Create an index.html file in that location so that we can test that the virtual host works as expected:`
 
 `sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectlamp/index.html`
 
