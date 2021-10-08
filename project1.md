@@ -38,8 +38,14 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 ![Apache webpage](./images/Apache_webpage_index.PNG)
 *Screenshot of Apache webpage*
 
+### Step 2: Installing mysql
+' sudo apt install mysql-server
 
+sudo mysql_secure_installation '
+![MySQL](./images/mysql_instal_launch.PNG)
+*Screenshot of MySQL*
 
+### Step 3:Installing php
 
 
 
