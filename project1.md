@@ -47,32 +47,8 @@ sudo mysql_secure_installation '
 
 ### Step 3:Installing php
 
+![PHP](./images/php_install.PNG)
+*Screenshot of PHP_Install*
 
 
 
-
-
-
-
-
-### This is a list
-
-- item 1
-
-- item 2
-- item 3
-
-This is another list
-
-1. big none
-
-2. big two
-
-
-![status](./images/pic2.PNG)
-
-
-
-
-
-![apach](test.PNG)
