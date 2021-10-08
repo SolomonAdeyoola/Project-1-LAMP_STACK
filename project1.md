@@ -103,3 +103,9 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 
 ![virtualhost](./images/virtual_host_webpage.PNG)
 *Screenshot of Virtual host webpage*
+
+### Step 5 — Enable PHP on the Website
+
+
+![php_enabled](./images/php_enabled.PNG)
+*Screenshot of php_enabled*
