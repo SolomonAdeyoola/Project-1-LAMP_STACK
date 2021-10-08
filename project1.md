@@ -32,7 +32,21 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 
 ![Apache installation](./images/Installing_Apache.PNG)
 ![Apache Startup](./images/Starting_Apache.PNG)
+![Apache installation](./images/Installing_Apache.PNG)
 *Screenshot for Apache Server installation and Startup*
+
+![Apache webpage](./images/Apache_webpage_index.PNG)
+*Screenshot of Apache webpage*
+
+
+
+
+
+
+
+
+
+
 
 
 ### This is a list
