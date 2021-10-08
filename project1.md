@@ -138,4 +138,4 @@ Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl
 
 `sudo rm /var/www/projectlamp/index.php`
 
-# Project 1 completed
+# Project 1 completed!
