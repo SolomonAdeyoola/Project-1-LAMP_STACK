@@ -7,6 +7,10 @@
 ![LAMP Architecture](./images/HLD_LAMP.PNG)
 ** *LAMP Architecture, Source: K7. India* **
 
+### Step 0: Setting up EC2 Instance on AWS
+
+Launched EC2 instance of Linux Ubuntu Server 20.04 LTS (HVM) and named it as pbl_p1_lamp. Created security group with relevant ports opened and also created and saved my private key to be used for SSH into the EC2 instance.
+
 
 
 
